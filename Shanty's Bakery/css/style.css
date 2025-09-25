@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    background: rgba(165, 42, 118, 0.473);
+}
+
+.logo {
+    color: rgba(255, 242, 127, 0.986);
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: right;
+    padding-top: .8%;
+    cursor: pointer;
+}
+ul nav-links{
+    list-style-type: none;
+    font-size: 16px;
+    margin-left: 60px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+}
+a:hover{
+    color: rgba(255, 255, 0, 0.589);
+}
+
+    
+menu {
+    width: 800px;
+    float:right;
+    height: 90px;
+}
+/*i am now styling the hero section*/
+.hero{
+    text-align: center;
+    padding: 30px 20px;
+}
+.hero h1{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+
+
+
+main {
+    width: 150%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://media.istockphoto.com/id/1433072647/photo/modern-open-plan-apartment-interior.jpg?s=612x612&w=0&k=20&c=Z_m2olNPCWUdNi86JrtlAPDkxyM7ZJ3thNMZn-QedTg=);
+    background-size: cover;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+form {
+    border: 2px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    border-color:var(--accent);
+    outline: none;
+    box-shadow: 0 0 4px rgba(230, 126, 34, 0.5);
+}
+div.search{
+    text-align: center;
+    text-decoration: black;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 14px;
+    padding:20px;
+}
+
+
+.fa-square-facebook{
+    font-size: 30px;
+    color: #1877F2;
+    transition:0.3s, color 0.3s;
+}
+    
+.fa-square-instagram{
+    font-size: 30px;
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    transition: 0.3s, color 0.3s;
+}
+
+.fa-google{
+    font-size: 30px;
+    color: white,green;
+}
+
+
+footer{
+    text-align:left;
+    font-size:16px ;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding:20px;
+    background-color:none;
+    color:black;
+}
+
+
+footer a{
+    color: #333;
+    margin:10px;
+    text-decoration: none;
+}
+
+font a:hover{
+    color: #ff6f61;
+}
+
+

@@ -1,0 +1,10 @@
+Feedback from Part1
+File and Folder structure is organized but could be improved
+Fixes- Images and documents are all in their own folder.
+
+Feedback- semantic elements are used correctly but there are minor arrors or inconsistencies.
+        -The structure is logical and mostly organized.
+fixes- Use the semantics where they belong for example <section> is on a group related content not single paragraphs.
+
+References
+ismagilov, (2025). istock, https://www.istockphoto.com/photo/modern-cafe-interior-with-wooden-furniture-pendant-lights-and-tiled-floor-in-a-gm2192656855-610927745?searchscope=image%2Cfilm> Accessed[24 September 2025].
