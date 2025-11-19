@@ -27,3 +27,25 @@ Created a CSS file and styling.
 ## Author
 Ntokozo
 Email: ST10474678@rcconnect.edu.za
+
+# Part3
+
+Shanty's Bakery
+
+Welcome to my website which consists of five webpages and each webpages contains information that describes and shows what we offer in our website. The home page is a landing place which has a search button allowing users to search what they are in need of, the about page shows what the bakery is about and our goals to enhamce the user experience, product page shows what we offer, inquiry page has a form which allow users to fill in their information and enquire about the things pertaining the website so they can be offered help, and lastly we have the contact page which consists of the website information and a contact form which allows users to contact us in if they have any compliants, or information they want to ask about.
+
+This website is user-friendly allowing the users to effectively navigate through it.
+
+## Screenshots
+![Inquiry page screenshot](images/3.PNG)
+![Contact page screenshot](images/4.PNG)
+## Change Log
+### [2025-11-19] version 1.1
+Created a contact form that is responsive.
+Used the css to style my boader abd buttons for my forms to look nice and noticeable.
+added an inquiry form and updated it to allow users to interact with it.
+Used javascrpit to make the website to be responsive 
+
+## Change Log
+### [2025-11-17]  version 1.0
+Created an inquiry form that allow users to ask and enquire about certain things that they need.

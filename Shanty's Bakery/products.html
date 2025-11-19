@@ -11,32 +11,48 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="products.html">Products</a>
-        <a href="inquiry.html">Inquiry</a>
+        <a href="Inquiry.html">Inquiry</a>
         <a href="contact.html">Contact</a>
     </nav>
 
 <main>
     <h1>Products</h1>
+    <p>Order our custom chocolate and vanilla cakes made with rich dark-light chocolate and fresh ingredients. Perfect for any celebration. Delivery available!</p>
     <p>Here are some of the delicious cakes and pastries</p>
 
     <div class="products">
-<img src="images/pastries.jpg" alt=" a bowl that has pastries" width="340px">
+<img src="images/pastries.jpg" alt=" a bowl that has pastries" class="gallery-img" onclick="openLightbox(); currentSlide(1)"width="340px">
 <h3>Caramel and Vanilla rolls</h3>
         <p>R150,00</p>
 
-<img src="images/sweet stick.jpg" alt="sprinkles" width="340px">
+<img src="images/sweet-stick.jpg" alt="sprinkles" class="gallery-img" onclick="openLightbox(); currentSlide(2)"width="340px">
 <h4>Sweet stick</h4>
 <p>R60,00</p>
 
-<img src="images/Birthday cake.jpg" alt="paw patrol" width="340px">
+<img src="images/Birthday-cake.jpg" alt="paw patrol" class="gallery-img" onclick="openLightbox(); currentSlide(3)" width="340px">
 <h5>Chocolate Cake</h5>
 <P>R600,00</P>
 
-<img src="images/chunks.jpg" alt="chocolate chunk" width="340px">
+<img src="images/chunks.jpg" alt="chocolate chunk" class="gallery-img" onclick="openLightbox(); currentSlide(4)" width="340px">
 <h6>Chunks</h6>
 <p>R110,00</p>
     </div>
-</main>
 
+    <!-- Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-slides">
+                <img src="gallery/pastries-large.jpg" alt="a bowl that has pastries" class="lightbox-slide">
+                <img src="gallery/sweet-stick-large.jpg" alt="sprinkles" class="lightbox-slide">
+                <img src="gallery/Birthday-cake-large.jpg" alt="paw patrol" class="lightbox-slide">
+                <img src="gallery/chunks-large.jpg" alt="chocolate chunk" class="lightbox-slide">
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</main>
+<script src="js/script.js"></script>
 </body>
 </html>

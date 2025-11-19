@@ -13,7 +13,7 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="products.html">Products</a>
-      <a href="inquiry.html">Inquiry</a>
+      <a href="Inquiry.html">Inquiry</a>
       <a href="contact.html">Contact</a>
     </nav>
   
@@ -21,14 +21,70 @@
   <main>
     <section class="contact">
     <h1>Contact Us</h1>
+    <h2>If you need help, ensure to contact us to give you the best experience!</h2>
     <img src="https://media.istockphoto.com/id/1650639866/photo/contact-us-telemarketing-and-crm-black-woman-in-customer-service-with-headset-and-smile-on.jpg?s=612x612&w=0&k=20&c=2om3lifIsF71NGxCcOnjG816t2PumJcWZLu4ZpzUWBw=" alt="Customer Service">
     <p>If you need help, contact us:</p>
     <ul>
       <li>Phone:+27 11 432 6256</li>
       <li>Email:Info@Shanty's bakery.com</li>
       <li>Visit us: 247 Main Street, Krugersdorp, South Africa</li>
+
+    <form id="contactForm">
+      <h2>Contact Form</h2>
+      <label>Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required aria-describedby="name-error" required>
+         <span class="error-message" id="name-error"></span>
+
+      <label>Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required aria-describedby="email-error" required>
+        <span class="error-message" id="email-error"></span>
+
+      <label>Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" aria-describedby="phone-error required>
+         <span class="error-message" id="phone-error"></span>
+
+<label for="order">Are you placing an order?</label>
+  <select id="order" name="order">
+    <option value="no">No, just an inquiry</option>
+    <option value="yes">Yes, I want to place an order</option>
+  </select>
+      <label>Type of Message:</label>
+      <select id="messageType" required>
+
+        <option value="">--Select Type --</option>
+        <option value="General Inquiry">General Inquiry</option>
+        <option value="Order-related Query">Order-related Query</option>
+        <option value="Compliant">Compliant</option>
+        <option value="Compliment">Compliment</option>
+      </select>
+      <label>Your Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here" required aria-describedby="message-error" required></textarea>
+          <span class="error-message" id="message-error"></span> 
+
+      <button type="submit">Send Message</button>
+       <div id="form-feedback" style="display:none;"></div>
+
+       <div id="map" style="height: 500px;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([51.505, -0.09], 13);  // Initial position (London)
+
+        // Tile Layer (OpenStreetMap)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Marker on the map
+        L.marker([51.5, -0.09]).addTo(map)
+            .bindPopup('A marker at South Africa')
+            .openPopup();
+    </script>
+
     </main>
   </section>
+
+  <script src="js/script.js"></script>
 
 </body>
 </html>

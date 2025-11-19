@@ -6,5 +6,18 @@ Feedback- semantic elements are used correctly but there are minor arrors or inc
         -The structure is logical and mostly organized.
 fixes- Use the semantics where they belong for example <section> is on a group related content not single paragraphs.
 
+
 References
 ismagilov, (2025). istock, https://www.istockphoto.com/photo/modern-cafe-interior-with-wooden-furniture-pendant-lights-and-tiled-floor-in-a-gm2192656855-610927745?searchscope=image%2Cfilm> Accessed[24 September 2025].
+
+Feedback from Part2
+
+Feedback- Ensure the elements are correctly used in their rightful places
+Fixes- emelemts were correctly used to make the website to work effectively.
+Feedback-Webiste consists of detailed information, enhancing customer experience
+fixes- made sure that the website was complete and easy to navigate through it.
+
+References
+ismagilov, (2025). istock, https://www.istockphoto.com/photo/modern-cafe-interior-with-wooden-furniture-pendant-lights-and-tiled-floor-in-a-gm2192656855-610927745?searchscope=image%2Cfilm> Accessed[28 October 2025].
+Youtube
+
